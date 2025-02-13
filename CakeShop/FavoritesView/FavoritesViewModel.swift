@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+class FavoritesViewModel {
+    var rows: [CakeRowViewModel]
+    
+    init(rows: [CakeRowViewModel]) {
+        self.rows = rows
+    }
+}

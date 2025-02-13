@@ -6,17 +6,49 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		12F9A0C82D5E1EAB003DCDA5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12F9A0BD2D5E1EAB003DCDA5 /* Preview Assets.xcassets */; };
+		12F9A0C92D5E1EAB003DCDA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12F9A0BF2D5E1EAB003DCDA5 /* Assets.xcassets */; };
+		12F9A0CA2D5E1EAB003DCDA5 /* CakeShopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F9A0A82D5E1EAB003DCDA5 /* CakeShopApp.swift */; };
+		12F9A0CB2D5E1EAB003DCDA5 /* CakeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F9A0AA2D5E1EAB003DCDA5 /* CakeRow.swift */; };
+		12F9A0CC2D5E1EAB003DCDA5 /* CakeRowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F9A0AB2D5E1EAB003DCDA5 /* CakeRowViewModel.swift */; };
+		12F9A0CD2D5E1EAB003DCDA5 /* ImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F9A0AC2D5E1EAB003DCDA5 /* ImageButton.swift */; };
+		12F9A0CE2D5E1EAB003DCDA5 /* CatalogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F9A0AE2D5E1EAB003DCDA5 /* CatalogView.swift */; };
+		12F9A0CF2D5E1EAB003DCDA5 /* CatalogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F9A0AF2D5E1EAB003DCDA5 /* CatalogViewModel.swift */; };
+		12F9A0D02D5E1EAB003DCDA5 /* LayerCakeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F9A0B02D5E1EAB003DCDA5 /* LayerCakeView.swift */; };
+		12F9A0D12D5E1EAB003DCDA5 /* ScreenPlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F9A0B12D5E1EAB003DCDA5 /* ScreenPlaceholderView.swift */; };
+		12F9A0D22D5E1EAB003DCDA5 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F9A0B32D5E1EAB003DCDA5 /* FavoritesView.swift */; };
+		12F9A0D32D5E1EAB003DCDA5 /* FavoritesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F9A0B42D5E1EAB003DCDA5 /* FavoritesViewModel.swift */; };
+		12F9A0D42D5E1EAB003DCDA5 /* Cake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F9A0B62D5E1EAB003DCDA5 /* Cake.swift */; };
+		12F9A0D52D5E1EAB003DCDA5 /* OrderCartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F9A0B82D5E1EAB003DCDA5 /* OrderCartView.swift */; };
+		12F9A0D62D5E1EAB003DCDA5 /* OrderCartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F9A0B92D5E1EAB003DCDA5 /* OrderCartViewModel.swift */; };
+		12F9A0D72D5E1EAB003DCDA5 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F9A0C12D5E1EAB003DCDA5 /* StorageManager.swift */; };
+		12F9A0D82D5E1EAB003DCDA5 /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F9A0C32D5E1EAB003DCDA5 /* StarterView.swift */; };
+		12F9A0D92D5E1EAB003DCDA5 /* StarterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F9A0C42D5E1EAB003DCDA5 /* StarterViewModel.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		127FAE132D5CCDD7004F136B /* CakeShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CakeShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12F9A0A72D5E1EAB003DCDA5 /* CakeShop.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CakeShop.entitlements; sourceTree = "<group>"; };
+		12F9A0A82D5E1EAB003DCDA5 /* CakeShopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeShopApp.swift; sourceTree = "<group>"; };
+		12F9A0AA2D5E1EAB003DCDA5 /* CakeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeRow.swift; sourceTree = "<group>"; };
+		12F9A0AB2D5E1EAB003DCDA5 /* CakeRowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeRowViewModel.swift; sourceTree = "<group>"; };
+		12F9A0AC2D5E1EAB003DCDA5 /* ImageButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageButton.swift; sourceTree = "<group>"; };
+		12F9A0AE2D5E1EAB003DCDA5 /* CatalogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogView.swift; sourceTree = "<group>"; };
+		12F9A0AF2D5E1EAB003DCDA5 /* CatalogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogViewModel.swift; sourceTree = "<group>"; };
+		12F9A0B02D5E1EAB003DCDA5 /* LayerCakeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerCakeView.swift; sourceTree = "<group>"; };
+		12F9A0B12D5E1EAB003DCDA5 /* ScreenPlaceholderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenPlaceholderView.swift; sourceTree = "<group>"; };
+		12F9A0B32D5E1EAB003DCDA5 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		12F9A0B42D5E1EAB003DCDA5 /* FavoritesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewModel.swift; sourceTree = "<group>"; };
+		12F9A0B62D5E1EAB003DCDA5 /* Cake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cake.swift; sourceTree = "<group>"; };
+		12F9A0B82D5E1EAB003DCDA5 /* OrderCartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCartView.swift; sourceTree = "<group>"; };
+		12F9A0B92D5E1EAB003DCDA5 /* OrderCartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCartViewModel.swift; sourceTree = "<group>"; };
+		12F9A0BD2D5E1EAB003DCDA5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		12F9A0BF2D5E1EAB003DCDA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12F9A0C12D5E1EAB003DCDA5 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		12F9A0C32D5E1EAB003DCDA5 /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
+		12F9A0C42D5E1EAB003DCDA5 /* StarterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		127FAE152D5CCDD7004F136B /* CakeShop */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CakeShop;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		127FAE102D5CCDD7004F136B /* Frameworks */ = {
@@ -32,7 +64,7 @@
 		127FAE0A2D5CCDD7004F136B = {
 			isa = PBXGroup;
 			children = (
-				127FAE152D5CCDD7004F136B /* CakeShop */,
+				12F9A0C62D5E1EAB003DCDA5 /* CakeShop */,
 				127FAE142D5CCDD7004F136B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +75,112 @@
 				127FAE132D5CCDD7004F136B /* CakeShop.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		12F9A0A92D5E1EAB003DCDA5 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				12F9A0A72D5E1EAB003DCDA5 /* CakeShop.entitlements */,
+				12F9A0A82D5E1EAB003DCDA5 /* CakeShopApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		12F9A0AD2D5E1EAB003DCDA5 /* CakeRow */ = {
+			isa = PBXGroup;
+			children = (
+				12F9A0AA2D5E1EAB003DCDA5 /* CakeRow.swift */,
+				12F9A0AB2D5E1EAB003DCDA5 /* CakeRowViewModel.swift */,
+				12F9A0AC2D5E1EAB003DCDA5 /* ImageButton.swift */,
+			);
+			path = CakeRow;
+			sourceTree = "<group>";
+		};
+		12F9A0B22D5E1EAB003DCDA5 /* CatalogView */ = {
+			isa = PBXGroup;
+			children = (
+				12F9A0AD2D5E1EAB003DCDA5 /* CakeRow */,
+				12F9A0AE2D5E1EAB003DCDA5 /* CatalogView.swift */,
+				12F9A0AF2D5E1EAB003DCDA5 /* CatalogViewModel.swift */,
+				12F9A0B02D5E1EAB003DCDA5 /* LayerCakeView.swift */,
+				12F9A0B12D5E1EAB003DCDA5 /* ScreenPlaceholderView.swift */,
+			);
+			path = CatalogView;
+			sourceTree = "<group>";
+		};
+		12F9A0B52D5E1EAB003DCDA5 /* FavoritesView */ = {
+			isa = PBXGroup;
+			children = (
+				12F9A0B32D5E1EAB003DCDA5 /* FavoritesView.swift */,
+				12F9A0B42D5E1EAB003DCDA5 /* FavoritesViewModel.swift */,
+			);
+			path = FavoritesView;
+			sourceTree = "<group>";
+		};
+		12F9A0B72D5E1EAB003DCDA5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				12F9A0B62D5E1EAB003DCDA5 /* Cake.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		12F9A0BA2D5E1EAB003DCDA5 /* OrderCartView */ = {
+			isa = PBXGroup;
+			children = (
+				12F9A0B82D5E1EAB003DCDA5 /* OrderCartView.swift */,
+				12F9A0B92D5E1EAB003DCDA5 /* OrderCartViewModel.swift */,
+			);
+			path = OrderCartView;
+			sourceTree = "<group>";
+		};
+		12F9A0BE2D5E1EAB003DCDA5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				12F9A0BD2D5E1EAB003DCDA5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		12F9A0C02D5E1EAB003DCDA5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				12F9A0BF2D5E1EAB003DCDA5 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		12F9A0C22D5E1EAB003DCDA5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				12F9A0C12D5E1EAB003DCDA5 /* StorageManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		12F9A0C52D5E1EAB003DCDA5 /* StarterView */ = {
+			isa = PBXGroup;
+			children = (
+				12F9A0C32D5E1EAB003DCDA5 /* StarterView.swift */,
+				12F9A0C42D5E1EAB003DCDA5 /* StarterViewModel.swift */,
+			);
+			path = StarterView;
+			sourceTree = "<group>";
+		};
+		12F9A0C62D5E1EAB003DCDA5 /* CakeShop */ = {
+			isa = PBXGroup;
+			children = (
+				12F9A0A92D5E1EAB003DCDA5 /* App */,
+				12F9A0C52D5E1EAB003DCDA5 /* StarterView */,
+				12F9A0B22D5E1EAB003DCDA5 /* CatalogView */,
+				12F9A0BA2D5E1EAB003DCDA5 /* OrderCartView */,
+				12F9A0B52D5E1EAB003DCDA5 /* FavoritesView */,
+				12F9A0B72D5E1EAB003DCDA5 /* Models */,
+				12F9A0C22D5E1EAB003DCDA5 /* Services */,
+				12F9A0C02D5E1EAB003DCDA5 /* Resources */,
+				12F9A0BE2D5E1EAB003DCDA5 /* Preview Content */,
+			);
+			path = CakeShop;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +197,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				127FAE152D5CCDD7004F136B /* CakeShop */,
 			);
 			name = CakeShop;
 			packageProductDependencies = (
@@ -109,6 +244,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12F9A0C82D5E1EAB003DCDA5 /* Preview Assets.xcassets in Resources */,
+				12F9A0C92D5E1EAB003DCDA5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +256,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12F9A0CA2D5E1EAB003DCDA5 /* CakeShopApp.swift in Sources */,
+				12F9A0CB2D5E1EAB003DCDA5 /* CakeRow.swift in Sources */,
+				12F9A0CC2D5E1EAB003DCDA5 /* CakeRowViewModel.swift in Sources */,
+				12F9A0CD2D5E1EAB003DCDA5 /* ImageButton.swift in Sources */,
+				12F9A0CE2D5E1EAB003DCDA5 /* CatalogView.swift in Sources */,
+				12F9A0CF2D5E1EAB003DCDA5 /* CatalogViewModel.swift in Sources */,
+				12F9A0D02D5E1EAB003DCDA5 /* LayerCakeView.swift in Sources */,
+				12F9A0D12D5E1EAB003DCDA5 /* ScreenPlaceholderView.swift in Sources */,
+				12F9A0D22D5E1EAB003DCDA5 /* FavoritesView.swift in Sources */,
+				12F9A0D32D5E1EAB003DCDA5 /* FavoritesViewModel.swift in Sources */,
+				12F9A0D42D5E1EAB003DCDA5 /* Cake.swift in Sources */,
+				12F9A0D52D5E1EAB003DCDA5 /* OrderCartView.swift in Sources */,
+				12F9A0D62D5E1EAB003DCDA5 /* OrderCartViewModel.swift in Sources */,
+				12F9A0D72D5E1EAB003DCDA5 /* StorageManager.swift in Sources */,
+				12F9A0D82D5E1EAB003DCDA5 /* StarterView.swift in Sources */,
+				12F9A0D92D5E1EAB003DCDA5 /* StarterViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

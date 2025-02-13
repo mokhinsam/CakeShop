@@ -8,11 +8,19 @@
 import SwiftUI
 
 struct ScreenPlaceholderView: View {
+    var title: String
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text(title)
+                .font(.title)
+                .foregroundStyle(.secondary)
+            LayerCakeView()
+                .frame(width: 200, height: 200)
+        }
     }
 }
 
 #Preview {
-    ScreenPlaceholderView()
+    ScreenPlaceholderView(title: "Корзина пуста")
 }
