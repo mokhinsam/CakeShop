@@ -11,7 +11,7 @@ import SwiftUI
 struct CakeShopApp: App {
     var body: some Scene {
         WindowGroup {
-            
+            StarterView()
         }
     }
 }
