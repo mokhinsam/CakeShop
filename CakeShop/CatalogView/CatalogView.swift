@@ -26,7 +26,7 @@ struct CatalogView: View {
                             }
                         }
                     } else {
-                        
+                        ScreenPlaceholderView(title: "Каталог пуст")
                     }
                 }
                 .navigationTitle("Каталог")
@@ -35,7 +35,6 @@ struct CatalogView: View {
         }
     }
 }
-
 
 #Preview {
     CatalogView(viewModel: CatalogViewModel(rows: []))

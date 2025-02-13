@@ -8,11 +8,34 @@
 import SwiftUI
 
 struct FavoritesView: View {
+    var viewModel: FavoritesViewModel
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            ZStack {
+                Color.yellow
+                    .opacity(0.2)
+                    .ignoresSafeArea()
+                VStack {
+                    if viewModel.rows.count > 0 {
+                        ScrollView {
+                            LazyVStack {
+                                ForEach(viewModel.rows, id: \.cakeTitle) { cakeViewModel in
+                                    CakeRow(viewModel: cakeViewModel)
+                                }
+                            }
+                        }
+                    } else {
+                        ScreenPlaceholderView(title: "Избранное пусто")
+                    }
+                }
+                .navigationTitle("Избранное")
+                .padding()
+            }
+        }
     }
 }
 
 #Preview {
-    FavoritesView()
+    FavoritesView(viewModel: FavoritesViewModel(rows: []))
 }
