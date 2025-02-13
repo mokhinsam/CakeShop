@@ -16,6 +16,11 @@ struct StarterView: View {
                 .tabItem {
                     Label("Каталог", systemImage: "circle.hexagongrid.fill")
                 }
+            OrderCartView(viewModel: OrderCartViewModel(rows: viewModel.rowsInCart))
+                .tabItem {
+                    Label("Корзина", systemImage: "cart")
+                }
+                .badge(viewModel.rowsInCartCount)
             FavoritesView(viewModel: FavoritesViewModel(rows: viewModel.rowsInFavorites))
                 .tabItem {
                     Label("Избранное", systemImage: "heart")
